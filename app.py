@@ -33,3 +33,14 @@ if __name__ == "__main__":
     # Call the function
     for url in urls:
         scrape_and_store(url)
+
+
+#### FOR Dynamic Content
+#  with sync_playwright() as p:
+#             browser = p.firefox.launch()
+#             page = browser.new_page()
+#             page.goto(url)
+#             # get status of request
+
+#             response = page.content()
+#             browser.close()
